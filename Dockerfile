@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.10
 
-RUN apk add --update-cache --repository http://dl-3.alpinelinux.org/alpine/v3.9/community/ certbot &&\
+RUN apk add --update-cache --repository http://dl-3.alpinelinux.org/alpine/v3.10/community/ certbot &&\
     rm -rf /var/cache/apk/*
